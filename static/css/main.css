@@ -9,7 +9,13 @@ a, a:hover, a:active {
     color: #268BD2;
 }
 
+h1 a, h1 a:hover, h1 a:active {
+    text-decoration: none;
+    color: #DC322F;
+}
+
 h2 a, h2 a:hover, h2 a:active {
+    text-decoration: none;
     color: #DC322F;
 }
 
@@ -91,8 +97,19 @@ ul {
     color: #268BD2;
 }
 
+.color-red {
+    color: #DC322F;
+}
+
 h1 {
 	font-size: 2.5em;
+    color: #DC322F;
+}
+
+h1.h2 {
+	font-size:1.8em;
+	line-height: 1.75em;
+	text-align: center;
     color: #DC322F;
 }
 
