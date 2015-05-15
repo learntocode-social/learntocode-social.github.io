@@ -1,6 +1,7 @@
 body {
 	background-image: url(/static/img/tiny-grid.png);
 	font-family: "Lato", sans-serif;
+    font-size: 18px;
     color: #666;
 }
 
@@ -20,15 +21,20 @@ h2 a, h2 a:hover, h2 a:active {
 }
 
 p {
-    font-size: 1.2em;
     color: #666;
     padding-top: 0.6em;
     padding-bottom: 0.6em;
+    font-size: 18px;
 }
 
 ul {
-    font-size: 1.2em;
     color: #666;
+    font-size: 18px;
+}
+
+ol {
+    color:#666;
+    font-size: 18px;
 }
 
 .navbar-custom {
@@ -36,7 +42,7 @@ ul {
 }
 
 .navbar-default .navbar-nav > li > a {
-	font-size: 0.9em;
+	font-size: 16px;
     color: #268BD2;
 }
 
@@ -68,7 +74,7 @@ ul {
 .cta-btn .btn {
 	background-color: #FF6600;
 	color: white;
-	font-size: 1.25em;
+	font-size: 20px;
 }
 
 .cta-btn .btn:hover {
@@ -102,26 +108,26 @@ ul {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 36px;
     color: #DC322F;
 }
 
 h1.h2 {
-	font-size:1.8em;
+	font-size: 27px;
 	line-height: 1.75em;
 	text-align: center;
     color: #DC322F;
 }
 
 h2 {
-	font-size:1.8em;
+	font-size: 27px;
 	line-height: 1.75em;
 	text-align: center;
     color: #DC322F;
 }
 
 h3 {
-	font-size:1.6em;
+	font-size: 18px;
 	line-height: 1.75em;
 	text-align: center;
     color: #DC322F;
